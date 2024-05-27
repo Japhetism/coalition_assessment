@@ -1,0 +1,548 @@
+body {
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    -ms-overflow-style:none;
+}
+.header {
+    margin-top: 18px;
+    height: 72px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 70px;
+    opacity: 1;
+}
+.logo {
+    margin-left: 10px;
+    top: 30px;
+    width: 211px;
+    height: 48px;
+}
+.menu-container {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.menu-item {
+    margin-top: 10px;
+}
+.settings {
+    width: 19px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.more {
+    width: 4px;
+    height: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.username {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.user-role {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.home-logo {
+    width: 16px;
+    height: 17px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.patient-logo {
+    width: 24px;
+    height: 17px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.schedule-logo {
+    width: 15px;
+    height: 17px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.message-logo {
+    width: 19px;
+    height: 17px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.transaction-logo {
+    width: 22px;
+    height: 17px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.menu-item-active {
+    background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+    background: #01F0D0 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+    width: 122px;
+    height: 41px;
+}
+.content-container {
+    margin-top: 30px;
+}
+.patients-container {
+    top: 122px;
+    left: 18px;
+    width: 367px;
+    height: 1054px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+.patients-container-header {
+    margin-top: 5px;
+    padding: 20px 30px 5px 30px;
+}
+.patients-container-header-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.patient-username {
+    margin-left: 20px;
+}
+.patient-container {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+}
+.active-patient {
+    background: var(--activestate_bg_2) 0% 0% no-repeat padding-box;
+    background: #D8FCF7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.search-icon {
+    width: 18px;
+    height: 18px;
+    top: 0;
+    bottom: 0;
+}
+.more-horizontal {
+    width: 18px;
+    height: 4px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.diagnosis-history-container {
+    top: 122px;
+    left: 417px;
+    width: 646px;
+    height: 663px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    padding: 20px;
+}
+.diagnosis-history-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.diagnosis-blood-pressure {
+    height: 298px;
+    background: #F4F0FE 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    margin-top: 40px;
+    padding: 10px;
+}
+.diagnosis-respiratory-rate {
+    width: 190px;
+    height: 204px;
+    background: #E0F3FA 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 10px;
+}
+.diagnosis-temperature {
+    width: 190px;
+    height: 204px;
+    background: #FFE6E9 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 10px;
+}
+.diagnosis-heart-rate {
+    width: 190px;
+    height: 204px;
+    background: #FFE6F1 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 10px;
+}
+.diagnosis-types {
+    margin-top: 40px;
+}
+.diagnosis-types-icon {
+    width: 76px;
+    height: 76px;
+}
+.diagnosis-type-title {
+    font: var(--unnamed-font-style-normal) normal medium 16px/22px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 16px/22px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.diagnosis-type-value {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.diagnosis-footer-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    margin-top: auto;
+}
+.diagnosis-type-icon-container {
+    margin-bottom: 10px;
+}
+.user-container {
+    top: 108px;
+    left: 1216px;
+    width: 367px;
+    height: 740px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    padding: 30px;
+}
+.user-lg {
+    width: 200px;
+    height: 200px;
+}
+.user-lg-name {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: center;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    margin-top: 20px;
+}
+.user-information-icon {
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+}
+.user-information-label {
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal medium 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.user-information-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.user-detail-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.information-button-container {
+    margin: 50px;
+}
+.information-button {
+    width: 220px;
+    height: 41px;
+    background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+    background: #01F0D0 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+    border: none;
+}
+.lab-result-container {
+    width: 367px;
+    height: 296px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    margin-top: 30px;
+    padding: 30px;
+    overflow-y: scroll;
+}
+.lab-result-header {
+    margin-bottom: 20px;
+}
+.lab-result-header-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.lab-result-details {
+    height: 40px;
+    margin-top: 10px;
+}
+.lab-result-name {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/18px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 13px/18px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.download-icon {
+    width: 20px;
+    height: 20px;
+}
+.diagnostic-list-container {
+    width: 646px;
+    height: 349px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    margin-top: 40px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.diagnostic-list-header {
+    margin-bottom: 20px;
+}
+.diagnostic-list-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.diagnostic-list-table-header {
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    height: 48px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+table th:first-child {
+    border-radius: 24px 0 0 24px;
+    padding-left: 20px;
+    margin-right: 20px;
+}  
+table th:last-child {
+    border-radius:0 24px 24px 0;
+}
+th, td {
+    padding: 15px 15px 15px 15px;
+}
+th:nth-child(2), td:nth-child(2) {
+    padding-right: 35px;
+}
+table td {
+    border-bottom: 0.3px solid #F5F3F3;
+}
+table td {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+table td:first-child {
+    padding-left: 20px;
+}
+.blood-pressure-details {
+    width: 438px;
+}
+.other-details {
+    width: 208px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.blood-pressure-title {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 18px/24px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.blood-pressure-duration-dropdown-text {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: right;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.blood-pressure-container {
+    margin-bottom: 20px;
+    height: auto;
+}
+.other-details-title {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.other-details-value {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 22px/30px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.other-details-footer {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+.systolic-circular {
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #E66FD2 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    margin-right: 10px;
+}
+.diastolic-circular {
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #8C6FE6 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    margin-right: 10px;
+}
+.patient-image {
+    width: 48px;
+    height: 48px;
+}
+.divider {
+    border-bottom: 0.5px solid #bebebe;
+    margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 6px;
+    background: #E3E4E6 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    height: 100px;
+    background: var(--unnamed-color-072635) 0% 0% no-repeat padding-box;
+    background: #072635 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
